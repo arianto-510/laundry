@@ -7,8 +7,13 @@ $nama = $_POST['nama'];
 $hp = $_POST['hp'];
 $alamat = $_POST['alamat'];
 
+if (isset($_POST['edit'])) {
+    $data = mysqli_query($conn, "UPDATE pelanggan set nama = '$nama', hp = '$hp', alamat = '$alamat' WHERE id = '$id'");
 
-$data = mysqli_query($conn, "UPDATE pelanggan set nama = '$nama', hp = '$hp', alamat = '$alamat' WHERE id = '$id'");
+    if (mysqli_affected_rows($conn)) {
+        header("Location: pelanggan.php");
+    }
+}
 
 $p = mysqli_fetch_assoc($query);
 

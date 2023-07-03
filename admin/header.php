@@ -27,7 +27,7 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="ganti_pass.php">Ganti Password</a></li>
-                            <li><a class="dropdown-item" href="#">Atur Harga</a></li>
+                            <li><a class="dropdown-item" href="atur_harga.php">Atur Harga</a></li>
                         </ul>
                     </li>
                     <img src="../icons/box-arrow-left.svg"><a class="nav-link" href="logout.php">Logout</a>
