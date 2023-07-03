@@ -1,5 +1,10 @@
 <?php
 session_start();
+
+if(isset($_SESSION['status']) == 'login'){
+    header("Location: ./admin/index.php");
+}
+
 include './koneksi.php';
 
 if (isset($_POST['login'])) {

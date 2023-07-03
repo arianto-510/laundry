@@ -19,7 +19,7 @@
                 <div class="navbar-nav ms-auto">
                     <img src="../icons/home.svg"><a class="nav-link" href="index.php">Home</a>
                     <img src="../icons/person.svg"><a class="nav-link" href="pelanggan.php">Pelanggan</a>
-                    <img src="../icons/transaksi.svg"><a class="nav-link" href="#">Transaksi</a>
+                    <img src="../icons/transaksi.svg"><a class="nav-link" href="transaksi.php">Transaksi</a>
                     <img src="../icons/book.svg"><a class="nav-link" href="#">Laporan</a>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
