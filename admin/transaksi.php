@@ -13,7 +13,7 @@ include './header.php';
             <h5>Data Pelanggan</h5>
         </div>
         <div class="panel-body">
-            <a href="tambah_pelanggan.php" class="btn btn-sm btn-info my-2 text-light">Tambah</a>
+            <a href="tambah_transaksi.php" class="btn btn-sm btn-info my-2 text-light">Tambah</a>
             <table class="table table-bordered table-striped text-center">
                 <tr>
                     <th>No</th>
@@ -28,6 +28,7 @@ include './header.php';
                 </tr>
                 <?php $i = 1; ?>
                 <?php while ($t = mysqli_fetch_assoc($query)) : ?>
+                    <!-- <?php var_dump($query); ?> -->
                     <tr>
                         <td><?= $i; ?></td>
                         <td><?= $t['tanggal']; ?></td>
